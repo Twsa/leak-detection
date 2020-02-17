@@ -25,23 +25,7 @@ __FILE__, __PRETTY_FUNCTION__, __LINE__)
 
 ![1581906165546](./Pics/1581906165546.png)
 
-```flow
-flowchat
-st=>start: 开始
-e=>end: 结束
-op=>operation: malloc分配内存
-cond=>condition: 内存分配成功？
-op1=>operation: 1.创建全局列表的新节点；
-2.填充节点信息；
-3.把新的节点加入到全局列表中；
-4.获取本地实时时间
-5.打印信息
-op2=>operation: 获取本地实时时间
-st->op->cond
-cond(yes)->op1->e
-cond(no)->e
-
-```
+![flowchart-Page-2](./Pics/flowchart-Page-2.png)
 
 ```c
 void *mss_malloc(size_t __size, int type, \
