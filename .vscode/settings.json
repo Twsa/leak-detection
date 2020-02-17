@@ -1,0 +1,8 @@
+{
+        "files.associations": {
+                "preload.h": "c",
+                "stdlib.h": "c",
+                "stdio.h": "c",
+                "insertlib.h": "c"
+        }
+}
